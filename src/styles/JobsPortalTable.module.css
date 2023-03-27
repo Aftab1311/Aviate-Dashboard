@@ -1,0 +1,53 @@
+.container_table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_table table {
+  width: 1394px;
+  height: 704px;
+  /* border-collapse: collapse; */
+  background: #fff;
+  border: 1px solid #d6d0d0;
+  border-radius: 10px;
+  margin-bottom: 150px;
+}
+
+.container_table table thead tr th {
+  border-bottom: 1px solid #353030;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  line-height: 80px;
+  font-family: "Poppins";
+}
+.container_table table tbody tr .title {
+  font-weight: 500;
+}
+.container_table table tbody tr .content {
+  font-weight: 400;
+}
+.container_table table tbody tr td {
+  border-bottom: 1px solid #d6d0d0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  line-height: 80px;
+  font-family: "Poppins";
+  text-align: center;
+}
+.view,
+.delete,
+.edit {
+  margin: 0px 5px;
+  font-size: 22px;
+}
+.view {
+  color: #338573;
+}
+.delete {
+  color: #fa0606;
+}
+.edit {
+  color: #04bcf6;
+}

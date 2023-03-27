@@ -1,0 +1,104 @@
+.container {
+  position: fixed;
+  left: 0;
+  height: calc(100vh - 93.23px);
+  width: 121.5px;
+  background: #22506c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  overflow: hidden;
+}
+.logo {
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0px 20px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+.caption {
+  font-size: 15px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.options button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container button:hover {
+  cursor: pointer;
+}
+
+.logo.badge span::before {
+  content: "3";
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.09em;
+  text-align: center;
+  color: #0a0101;
+  background: #ffd600;
+  box-shadow: 0px 5.84941px 5.84941px rgba(0, 0, 0, 0.25);
+}
+.logo.active::before,
+.logo.active::after {
+  content: "";
+  position: absolute;
+  height: 120%;
+  width: 10px;
+  background-color: #ffd600;
+}
+.logo.active::before {
+  left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.logo.active::after {
+  right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.helpbtn {
+  height: 22.2px;
+  width: 57.9px;
+  border-radius: 6.9px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 32.5px;
+}

@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  height: 109px;
+  background-color: #ffffff;
+  margin: 0;
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.container h1 {
+  font-family: Noto Sans Hebrew;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #116eff;
+  text-transform: capitalize;
+  padding: 22px 0 0 41px;
+  /* position: absolute; */
+  /* top: 22px;
+    left: 41px; */
+}
+.login {
+  /* position: absolute;
+  top: 43px; */
+  /* padding: 43px 0 0 0; */
+  /* width: 55px; */
+  height: 31px;
+  border: 0;
+  margin-right: 47px;
+  background: transparent;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #338573;
+}
+.postjob {
+  /* position: absolute;
+  left: 1274px;
+  top: 22px; */
+  margin-right: 51px;
+  padding: 17px 35px;
+  /* width: 187px; */
+  /* height: 72px; */
+  background: #136ef7;
+  border: none;
+  border-radius: 10px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
+}
