@@ -1,0 +1,5 @@
+.mainContainer {
+  padding: 126px 50px 0 159.5px;
+  display: grid;
+  row-gap: 30px;
+}

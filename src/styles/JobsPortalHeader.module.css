@@ -29,6 +29,7 @@
   /* padding: 43px 0 0 0; */
   /* width: 55px; */
   height: 31px;
+  cursor: pointer;
   border: 0;
   margin-right: 47px;
   background: transparent;
@@ -45,6 +46,8 @@
   left: 1274px;
   top: 22px; */
   margin-right: 51px;
+
+  cursor: pointer;
   padding: 17px 35px;
   /* width: 187px; */
   /* height: 72px; */

@@ -4,8 +4,11 @@
   align-items: center;
   background: #22506c;
   height: 93.23px;
-  padding: 0px 18px;
+  width: 100%;
+  position: fixed;
+  padding: 0px 20px;
   box-shadow: 4px 0px 9px 0px #00000040;
+  z-index: 1000;
 }
 .navbarLogo {
   width: 187.5px;
@@ -51,7 +54,7 @@
   position: relative;
 }
 .bellicon {
-  margin: 0px 20px;
+  margin: 0px 40px;
 }
 .message::before {
   content: "3";
@@ -92,7 +95,7 @@
 .navbarProfile span {
   width: 70px;
   height: 70px;
-  background: url("../assets/avatar.png");
+  /* background: url("../assets/avatar.png"); */
   /* border: 0.71px solid #000; */
 }
 .navbarProfileName {

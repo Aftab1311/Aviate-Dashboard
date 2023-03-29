@@ -4,7 +4,6 @@ import { FiMessageSquare, FiSearch } from "react-icons/fi";
 import { HiOutlineBell } from "react-icons/hi";
 import { TfiMedallAlt } from "react-icons/tfi";
 import AviateLogo from "./AviateLogo";
-import avatar from "../assets/avatar.png";
 
 const AviateNav = () => {
   return (
@@ -35,8 +34,8 @@ const AviateNav = () => {
       </div>
 
       <div className={styles.navbarProfile}>
-        {/* <img src={avatar} alt="profile" /> */}
-        <span></span>
+        <img src="/assets/avatar.png" alt="profile" />
+        {/* <span></span> */}
 
         <div className={styles.navbarProfileName}>
           <h3>Akash Mishra</h3>

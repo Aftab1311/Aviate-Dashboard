@@ -5,6 +5,7 @@ import { RxDashboard } from "react-icons/rx";
 import { IoBagOutline } from "react-icons/io5";
 import { BiCalendarEvent } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Link from "next/link";
 
 const Aviatesidebar = () => {
   const [active, setActive] = useState("dashboard");
@@ -37,7 +38,12 @@ const Aviatesidebar = () => {
         >
           <span></span>
           <IoBagOutline />
-          <span className={styles.caption}>My Jobs</span>
+          <Link
+            href="/JobsPortal"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <span className={styles.caption}>My Jobs</span>
+          </Link>
         </button>
         <button
           className={styles.logo}
